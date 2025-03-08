@@ -1,0 +1,134 @@
+Hierarchical XGBoost
+Crimes Contra Propriedade
+
+#1 Try:
+{
+    'booster': ['gbtree'],
+    'objective': ['multi:softmax'],
+    'num_class': [len(le.classes_)],
+    'eval_metric': ['mlogloss'],
+    'learning_rate': [0.1, 0.2, 0.3],
+    'n_estimators': [100],
+    'max_depth': [3, 4, 5],
+    'min_child_weight': [2, 3, 4],
+    'gamma': [0.0001, 0.001, 0.01],
+    'subsample': [0.4, 0.5, 0.6],
+    'colsample_bytree': [0.1, 0.5, 1],
+    'reg_alpha': [0.00005, 0.0001],
+    'seed': [seed],
+    'device': ['cuda:0']
+}
+
+{
+    'booster': 'gbtree', 
+    'colsample_bytree': 0.5, 
+    'device': 'cuda:0', 
+    'eval_metric': 'mlogloss', 
+    'gamma': 0.01, 
+    'learning_rate': 0.3, 
+    'max_depth': 5, 
+    'min_child_weight': 3, 
+    'n_estimators': 100, 
+    'num_class': 5, 
+    'objective': 'multi:softmax', 
+    'reg_alpha': 5e-05, 
+    'seed': 12345, 
+    'subsample': 0.6
+}
+
+
+
+
+#2 Try:
+{
+    'booster': ['gbtree'],
+    'objective': ['multi:softmax'],
+    'num_class': [len(le.classes_)],
+    'eval_metric': ['mlogloss'],
+    'learning_rate': [0.3, 0.4, 0.5],
+    'n_estimators': [100],
+    'max_depth': [5, 6, 7],
+    'min_child_weight': [3],
+    'gamma': [0.01, 0.02, 0.03],
+    'subsample': [0.6, 0.7, 0.8],
+    'colsample_bytree': [0.4, 0.5, 0.6],
+    'reg_alpha': [0.00001, 0.00005, 0.00006],
+    'seed': [seed],
+    'device': ['cuda:0']
+}
+
+{
+    'booster': 'gbtree', 
+    'colsample_bytree': 0.4, 
+    'device': 'cuda:0', 
+    'eval_metric': 'mlogloss', 
+    'gamma': 0.02, 
+    'learning_rate': 0.4, 
+    'max_depth': 6, 
+    'min_child_weight': 3, 
+    'n_estimators': 100, 
+    'num_class': 5, 
+    'objective': 'multi:softmax', 
+    'reg_alpha': 5e-05, 
+    'seed': 12345, 
+    'subsample': 0.6
+}
+
+
+
+
+#3 Try:
+{
+    'booster': ['gbtree'],
+    'objective': ['multi:softmax'],
+    'num_class': [len(le.classes_)],
+    'eval_metric': ['mlogloss'],
+    'learning_rate': [0.4],
+    'n_estimators': [100],
+    'max_depth': [6],
+    'min_child_weight': [3],
+    'gamma': [0.02],
+    'subsample': [0.6],
+    'colsample_bytree': [0.2, 0.3, 0.4],
+    'reg_alpha': [0.00005],
+    'seed': [seed],
+    'device': ['cuda:0']
+}
+
+{
+    'booster': 'gbtree', 
+    'colsample_bytree': 0.4, 
+    'device': 'cuda:0', 
+    'eval_metric': 'mlogloss', 
+    'gamma': 0.02, 
+    'learning_rate': 0.4, 
+    'max_depth': 6, 
+    'min_child_weight': 3, 
+    'n_estimators': 100, 
+    'num_class': 5, 
+    'objective': 'multi:softmax', 
+    'reg_alpha': 5e-05, 
+    'seed': 12345, 
+    'subsample': 0.6
+}
+
+
+
+
+FINAL:
+{
+    'booster': 'gbtree', 
+    'colsample_bytree': 0.4, 
+    'device': 'cuda:0', 
+    'eval_metric': 'mlogloss', 
+    'gamma': 0.02, 
+    'learning_rate': 0.4, 
+    'max_depth': 6, 
+    'min_child_weight': 3, 
+    'n_estimators': 100, 
+    'num_class': 5, 
+    'objective': 'multi:softmax', 
+    'reg_alpha': 5e-05, 
+    'seed': 12345, 
+    'subsample': 0.6
+}

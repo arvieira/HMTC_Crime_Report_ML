@@ -1,0 +1,1 @@
+Preencher esse arquivo com as informações e resultados do artigo, depois de pronto

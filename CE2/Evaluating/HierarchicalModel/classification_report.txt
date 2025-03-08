@@ -1,0 +1,87 @@
+                                                                      precision    recall  f1-score   support
+
+             Adulteração de Sinal Identificador de Veículo Automotor    0.45014   0.81393   0.57968      1220
+                                                              Ameaça    0.71161   0.19272   0.30330     18732
+                                                  Apreensão (outros)    0.72050   0.25282   0.37429      2753
+Apreensão de Adolescente Infrator (Artigo 104 e 107 da Lei 8.069/90)    0.74962   0.92336   0.82747       535
+                                Apreensão de Substância Entorpecente    0.34086   0.80731   0.47933       711
+                                                Apreensão de Veículo    0.52481   0.43307   0.47455       635
+                                       Apropriação Indébita (outros)    0.10400   0.69643   0.18097       784
+                    Associação para Tráfico de Droga (Lei 11.343/06)    0.34151   0.28965   0.31345      2068
+                                                             Calúnia    0.27757   0.30961   0.29271      1447
+                                 Crime de Perseguição (Art 147-A CP)    0.17713   0.33193   0.23099       476
+                                    Cumprimento de Mandado de Prisão    0.92190   0.71789   0.80720      3371
+                                                       Dano (outros)    0.11351   0.59687   0.19074      1982
+                                                            Desacato    0.18576   0.65146   0.28909       789
+                                              Desaparecimento outros    0.48214   0.48995   0.48602      1543
+                    Descumprimento de Medidas Protetivas de Urgência    0.23148   0.76087   0.35497       920
+                                                       Desobediência    0.18662   0.44327   0.26266       661
+                                                           Difamação    0.28377   0.42582   0.34057      1712
+                                            Encontro de Desaparecido    0.41975   0.50072   0.45667      1384
+                                                Estelionato (outros)    0.82656   0.61705   0.70660     26784
+                                    Estelionato (outros) - Tentativa    0.13921   0.71956   0.23328      1355
+                        Estelionato com Emprego de Cartão de Crédito    0.10224   0.82976   0.18206       840
+                                                             Estupro    0.28140   0.69000   0.39977       500
+                                               Estupro de Vulnerável    0.62137   0.82867   0.71020      1109
+                            Exercício Arbitrário das Próprias Razões    0.06116   0.58559   0.11075       555
+                                                   Extorsão (outros)    0.29425   0.33164   0.31183       787
+                                                 Extravio de Celular    0.42538   0.75389   0.54388      2121
+                                               Extravio de Documento    0.76333   0.88765   0.82081      6017
+                                        Extravio de Placa de Veículo    0.62947   0.92827   0.75021       948
+           Falta de Habilitação, Proibição Dirigir Veículo Automotor    0.08452   0.71779   0.15123       489
+                                                        Fato Atípico    0.64048   0.20875   0.31487     13945
+                                   Furto a Estabelecimento Comercial    0.43750   0.51159   0.47165      2244
+                                                  Furto a Transeunte    0.44843   0.48546   0.46621      6019
+                                                  Furto de Bicicleta    0.64155   0.87839   0.74152       921
+                                           Furto de Placa de Veículo    0.70474   0.68937   0.69697       734
+                                           Furto de Telefone Celular    0.59030   0.54720   0.56793      7849
+                                                    Furto de Veículo    0.88759   0.79769   0.84024      3989
+                                             Furto de Veículo - Moto    0.84620   0.87841   0.86200      1760
+                                       Furto no Interior de Coletivo    0.46654   0.75614   0.57704      2526
+                      Furto no Interior de Estabelecimento Comercial    0.33256   0.41250   0.36824      2783
+                                     Furto no Interior de Residência    0.55898   0.55263   0.55579      3344
+                                        Furto no Interior de Veículo    0.49981   0.63319   0.55865      2091
+                                                        Furto outros    0.70979   0.22466   0.34129     17756
+                    Homicídio Provocado por Projétil de Arma de Fogo    0.72569   0.80962   0.76536       977
+        Homicídio Provocado por Projétil de Arma de Fogo - Tentativa    0.29505   0.40683   0.34204       644
+                                                    Injúria (outros)    0.50271   0.17583   0.26053     10027
+                                             Injúria por preconceito    0.14294   0.44507   0.21639       537
+                              Lei de Drogas (Outros) (Lei 11.343/06)    0.11706   0.35282   0.17579       496
+                                             Lesão Corporal (outros)    0.44199   0.19121   0.26694     10559
+                       Lesão Corporal Culposa (outros) (Lei 9503/97)    0.58074   0.23561   0.33522      4274
+                  Lesão Corporal Culposa Provocada por Atropelamento    0.35303   0.68917   0.46689       711
+             Lesão Corporal Culposa Provocada por Colisão de Veículo    0.32045   0.32236   0.32140      1337
+               Lesão Corporal Provocada por Projétil de Arma de Fogo    0.51232   0.61134   0.55747       476
+                Lesão Corporal Provocada por Socos, Tapas e Pontapés    0.31859   0.27426   0.29477      6224
+                                                         Maus-Tratos    0.21298   0.58491   0.31226       477
+                              Medida Assecuratória de Direito Futuro    0.52333   0.11617   0.19013      8109
+                                        Morte sem Assistência Médica    0.52044   0.69611   0.59559       951
+                                        Perturbação da Tranquilidade    0.10097   0.72517   0.17726       906
+                        Porte Ilegal de Arma de Fogo de Uso Restrito    0.15813   0.53533   0.24414       467
+                 Porte de Droga para Consumo Próprio (Lei 11.343/06)    0.86641   0.79742   0.83049      3416
+                Proveniente de Prisão Preventiva da Unidade Policial    0.33764   0.76557   0.46861       546
+                                                          Receptação    0.19791   0.54504   0.29038      1532
+                                      Recuperação de Veículo Furtado    0.30881   0.61244   0.41059      1254
+                                      Recuperação de Veículo Roubado    0.90075   0.72250   0.80184      6281
+                                   Remoção para Verificação de Óbito    0.75992   0.63229   0.69025      1697
+                                                         Resistência    0.10274   0.27741   0.14995       757
+                                             Resistência qualificada    0.35630   0.81113   0.49511       593
+                                   Roubo a Estabelecimento Comercial    0.45917   0.55543   0.50273       911
+                                                  Roubo a Transeunte    0.76321   0.49866   0.60321     19837
+                                                      Roubo de Carga    0.71906   0.86148   0.78385      1747
+                                           Roubo de Telefone Celular    0.46553   0.56490   0.51042      6849
+                                                    Roubo de Veículo    0.82968   0.77387   0.80080     10600
+                                             Roubo de Veículo - Moto    0.58222   0.86387   0.69562      2123
+                                       Roubo no Interior de Coletivo    0.72791   0.88650   0.79942      3392
+                      Roubo no Interior de Estabelecimento Comercial    0.15885   0.49320   0.24030       515
+                                        Roubo no Interior de Veículo    0.19891   0.44439   0.27481      1888
+                                                        Roubo outros    0.29687   0.23708   0.26363      8048
+                   Sanções Penais e Administrativas ao Meio Ambiente    0.32170   0.90598   0.47480       468
+                                   Tráfico de Drogas (Lei 11.343/06)    0.60983   0.42834   0.50322      3649
+                                                        Vias de Fato    0.23903   0.20703   0.22188      3130
+                                               Violação de Domicílio    0.13580   0.67496   0.22611      1206
+
+                                                            accuracy                        0.46863    276800
+                                                           macro avg    0.44226   0.57294   0.45110    276800
+                                                        weighted avg    0.59692   0.46863   0.48188    276800
+

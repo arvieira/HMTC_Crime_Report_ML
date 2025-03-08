@@ -1,0 +1,97 @@
+Hierarchical XGBoost
+Violação ou Perturbação ou Dano ou Exercício Arbitrário
+
+#1 Try:
+{
+    'booster': ['gbtree'],
+    'objective': ['multi:softmax'],
+    'num_class': [len(le.classes_)],
+    'eval_metric': ['mlogloss'],
+    'learning_rate': [0.1, 0.2, 0.3],
+    'n_estimators': [100],
+    'max_depth': [3, 4, 5],
+    'min_child_weight': [2, 3, 4],
+    'gamma': [0.0001, 0.001, 0.01],
+    'subsample': [0.4, 0.5, 0.6],
+    'colsample_bytree': [0.1, 0.5, 1],
+    'reg_alpha': [0.00005, 0.0001],
+    'seed': [seed],
+    'device': ['cuda:1']
+}
+
+{
+    'booster': 'gbtree', 
+    'colsample_bytree': 0.5, 
+    'device': 'cuda:1', 
+    'eval_metric': 'mlogloss', 
+    'gamma': 0.0001, 
+    'learning_rate': 0.2, 
+    'max_depth': 4, 
+    'min_child_weight': 2, 
+    'n_estimators': 100, 
+    'num_class': 4, 
+    'objective': 'multi:softmax', 
+    'reg_alpha': 5e-05, 
+    'seed': 12345, 
+    'subsample': 0.5
+}
+
+
+
+
+
+#2 Try:
+{
+    'booster': ['gbtree'],
+    'objective': ['multi:softmax'],
+    'num_class': [len(le.classes_)],
+    'eval_metric': ['mlogloss'],
+    'learning_rate': [0.15, 0.2, 0.25],
+    'n_estimators': [100],
+    'max_depth': [4],
+    'min_child_weight': [2],
+    'gamma': [0.00001, 0.0001],
+    'subsample': [0.5],
+    'colsample_bytree': [0.4, 0.5, 0.6],
+    'reg_alpha': [0.00001, 0.00005],
+    'seed': [seed],
+    'device': ['cuda:1']
+}
+
+{
+    'booster': 'gbtree', 
+    'colsample_bytree': 0.5, 
+    'device': 'cuda:1', 
+    'eval_metric': 'mlogloss', 
+    'gamma': 1e-05, 
+    'learning_rate': 0.2, 
+    'max_depth': 4, 
+    'min_child_weight': 2, 
+    'n_estimators': 100, 
+    'num_class': 4, 
+    'objective': 'multi:softmax', 
+    'reg_alpha': 5e-05, 
+    'seed': 12345, 
+    'subsample': 0.5
+}
+
+
+
+
+FINAL:
+{
+    'booster': 'gbtree', 
+    'colsample_bytree': 0.5, 
+    'device': 'cuda:1', 
+    'eval_metric': 'mlogloss', 
+    'gamma': 1e-05, 
+    'learning_rate': 0.2, 
+    'max_depth': 4, 
+    'min_child_weight': 2, 
+    'n_estimators': 100, 
+    'num_class': 4, 
+    'objective': 'multi:softmax', 
+    'reg_alpha': 5e-05, 
+    'seed': 12345, 
+    'subsample': 0.5
+}
