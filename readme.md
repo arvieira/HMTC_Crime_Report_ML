@@ -1,21 +1,13 @@
 # Hierarchical Multi-class and Multi-label Text Classification for Crime Report: A Traditional Machine Learning Approach
-Large amounts of text and digital data are produced every day by society’s use of government
-and private companies. In this process, digital transformation contributes to the increasing amount of
-structured and unstructured data stored in digital media. More and more data repositories, such as Data
-Lakes and Data Warehouses, are being built to store and provide information to various business areas,
-contributing to Business Intelligence solutions. Some databases store vast amounts of unstructured data,
-which must be systematized and classified to better meet the data owner’s needs. In the context of criminal
-incident report systems in law enforcement agencies, each recorded incident must be properly classified as
-a specific crime. Often, hundreds or even thousands of distinct categories may be presented as options for
-the police officer or security agent responsible for the task. This work explores a clustering approach to
-group the different categories into a hierarchical tree of classes, making it easier to apply Machine Learning
-(ML) models, such as XGBoost, for the automated classification of criminal incident report narratives. As
-a case study, the Civil Police of the State of Rio de Janeiro (SEPOL/RJ) has an incident report database
-with over 6.5 million records, which grows daily, fed by Judicial Police Units (JPU) spread across the
-state. Each new record depends on the manual classification performed by the police officer regarding the
-type of crime that occurred when registering the occurrence. A hierarchical tree of classes was developed
-to segment the problem of this case study, enabling the application of various XGBoost models for the
-automated classification of criminal incidents. The result obtained by the hierarchical model for 80 distinct
-classes presents a final accuracy of 0.463, compared to 0.419 of the traditional model (baseline). A reduction
-of 25.48% in the training time of the model was observed when transitioning from the traditional approach
-to the hierarchical one.
+Large amounts of digital data are produced daily through society’s use of government and private companies. 
+Digital transformation contributes to the increasing amount of structured and unstructured data stored in digital media. 
+Organizations build centralized data repositories to store and provide information to business areas, supporting Business Intelligence solutions. 
+Some databases store vast amounts of unstructured data, which must be systematized and classified to meet the data owner’s needs. 
+In criminal incident report systems, each recorded incident must be classified as a specific crime, with hundreds or thousands of categories presented to the responsible officer. 
+This work explores a clustering approach to group categories into a hierarchical tree of classes, enabling the use of Machine Learning (ML) models like XGBoost for automated classification of criminal incident reports narratives. 
+As a case study, the Civil Police of of the State of Rio de Janeiro (SEPOL/RJ) has a database with over 6.5 million records, growing daily from Judicial Police Units (JPU) across the state. 
+Each new report requires manual classification. 
+A hierarchical tree of classes was developed to segment the problem, allowing various XGBoost models for automated classification. 
+The proposed hierarchical model with 80 classes achieved an accuracy of 0.463, outperforming the baseline flat model which reached 0.419, along with a 25.48\% reduction in training time. 
+The weighted average F1-score obtained by the hierarchical model was 0.48188, while the baseline model reached 0.44061.
+The improvement was statistically validated through a Wilcoxon signed-rank test, which yielded a p-value of 0.000010.
